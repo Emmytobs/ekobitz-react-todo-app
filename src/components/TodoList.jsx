@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Todo from "./Todo";
 import todoData from "../todoData";
 
-export default function TodolistContainer() {
+export default function TodoList() {
   const [todos, setTodos] = useState(todoData);
   const handleChange = ({ id }) => {
     setTodos((prevState) => {
